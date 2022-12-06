@@ -47,11 +47,18 @@
 // let a = "I am sentence number 3 and I was printed with JS from a js file.";
 // document.writeln(a);
 
-let a = "a" + 1 + 2 + 1.2;
-let b = 1 + 1.2 + "a" + 1;
-let c = "" == 0;
-let d = !(1 + 2 == 3) || !(2 > 4);
-let e = 0.1 + 0.2;
-let f = 9 % 2 ** 3;
-let g = -1 / 0;
-document.write(g);
+// let a = "a" + 1 + 2 + 1.2;
+// let b = 1 + 1.2 + "a" + 1;
+// let c = "" == 0;
+// let d = !(1 + 2 == 3) || !(2 > 4);
+// let e = 0.1 + 0.2;
+// let f = 9 % 2 ** 3;
+// let g = -1 / 0;
+// document.write(g);
+
+let a = "Hello";
+let b = "my";
+let c = "preety";
+let d = "World";
+let e = a + " " + b + " " + c + " " + d;
+document.writeln(e);
