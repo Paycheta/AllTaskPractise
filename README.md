@@ -1,2 +1,2 @@
 # AllTaskPractise
-Went through all task
+Went through all tasks
