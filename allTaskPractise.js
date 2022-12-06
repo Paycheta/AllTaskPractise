@@ -28,3 +28,7 @@ let x3 = x2 / "text";
 let x4 = x / 0;
 document.writeln(x3);
 document.writeln(x4);
+
+let a = 8;
+a += 8 - 7;
+document.writeln(a);
