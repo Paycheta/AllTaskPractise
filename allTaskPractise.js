@@ -108,5 +108,5 @@
 
 let a = 10;
 let b = 20;
-let c = a < b ? a : b;
+let c = a > b ? a : b;
 document.writeln(c);
