@@ -65,6 +65,6 @@ let e = a + " " + b + " " + c + " " + d;
 let f =
   "I like this world so much. I enjoy myself in this world. World is great.";
 let result = e.concat(". " + f);
-document.writeln(result);
-let replacResult = result.replace("world", "city");
-document.writeln(replacResult);
+document.writeln(result.toLowerCase());
+let replacResult = result.replace(/world/gi, "city");
+document.writeln(replacResult.toUpperCase());
