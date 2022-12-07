@@ -56,15 +56,27 @@
 // let g = -1 / 0;
 // document.write(g);
 
-let a = "Hello";
-let b = "my";
-let c = "preety";
-let d = "World";
-let e = a + " " + b + " " + c + " " + d;
+// let a = "Hello";
+// let b = "my";
+// let c = "preety";
+// let d = "World";
+// let e = a + " " + b + " " + c + " " + d;
 
-let f =
-  "I like this world so much. I enjoy myself in this world. World is great.";
-let result = e.concat(". " + f);
-document.writeln(result.toLowerCase());
-let replacResult = result.replace(/world/gi, "city");
-document.writeln(replacResult.toUpperCase());
+// let f =
+//   "I like this world so much. I enjoy myself in this world. World is great.";
+// let result = e.concat(". " + f);
+// document.writeln(result.toLowerCase());
+// let replacResult = result.replace(/world/gi, "city");
+// document.writeln(replacResult.toUpperCase());
+// let searchString = result.indexOf("world");
+// document.writeln(searchString);
+let x = 4;
+if (x > 10) {
+  document.writeln("Hi Pavle");
+} else if (x == 5) {
+  document.writeln("Bye Pavle");
+} else if (x < 2) {
+  document.writeln("How are you Pavle");
+} else {
+  document.writeln("Who are you?");
+}
