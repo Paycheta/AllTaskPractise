@@ -61,4 +61,10 @@ let b = "my";
 let c = "preety";
 let d = "World";
 let e = a + " " + b + " " + c + " " + d;
-document.writeln(e);
+
+let f =
+  "I like this world so much. I enjoy myself in this world. World is great.";
+let result = e.concat(". " + f);
+document.writeln(result);
+let replacResult = result.replace("world", "city");
+document.writeln(replacResult);
