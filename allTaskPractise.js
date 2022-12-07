@@ -70,13 +70,43 @@
 // document.writeln(replacResult.toUpperCase());
 // let searchString = result.indexOf("world");
 // document.writeln(searchString);
-let x = 4;
-if (x > 10) {
-  document.writeln("Hi Pavle");
-} else if (x == 5) {
-  document.writeln("Bye Pavle");
-} else if (x < 2) {
-  document.writeln("How are you Pavle");
-} else {
-  document.writeln("Who are you?");
-}
+// let x = 4;
+// if (x > 10) {
+//   document.writeln("Hi Pavle");
+// } else if (x == 5) {
+//   document.writeln("Bye Pavle");
+// } else if (x < 2) {
+//   document.writeln("How are you Pavle");
+// } else {
+//   document.writeln("Who are you?");
+// }
+
+// let a = 1;
+// let b = -3;
+// if (a > 0) {
+//   if (b > 0) {
+//     document.writeln(b);
+//   } else {
+//     document.writeln(a);
+//   }
+// }
+// let x = 6;
+// switch (x) {
+//   case 1:
+//     document.writeln("jedan");
+//     break;
+//   case 2:
+//     document.writeln("dva");
+//     break;
+//   case 3:
+//     document.writeln("tri");
+//     break;
+//   default:
+//     document.writeln("neki drugi broj");
+//     break;
+// }
+
+let a = 10;
+let b = 20;
+let c = a < b ? a : b;
+document.writeln(c);
