@@ -117,15 +117,28 @@
 // resultText3: My book is “HARRY POTTER”.
 // resultText4: potter harry
 
-let text = 'My favourite book is "Harry Potter". I love this book so much.';
+// let text = 'My favourite book is "Harry Potter". I love this book so much.';
 
-let result1 = text.slice(3, 35);
-document.writeln(result1);
-let result2 = text.slice(0, 2) + text.slice(12, 20) + text.slice(38, 43) + ".";
-document.writeln(result2);
-let text1 = text.slice(20, 35);
-let result3 = `${text.slice(0, 2) + text.slice(12, 20) + text1.toUpperCase()}.`;
-document.writeln(result3);
-let text2 = text1.toLowerCase();
-let result4 = text2.slice(8, 14) + " " + text2.slice(2, 7);
-document.writeln(result4);
+// let result1 = text.slice(3, 35);
+// document.writeln(result1);
+// let result2 = text.slice(0, 2) + text.slice(12, 20) + text.slice(38, 43) + ".";
+// document.writeln(result2);
+// let text1 = text.slice(20, 35);
+// let result3 = `${text.slice(0, 2) + text.slice(12, 20) + text1.toUpperCase()}.`;
+// document.writeln(result3);
+// let text2 = text1.toLowerCase();
+// let result4 = text2.slice(8, 14) + " " + text2.slice(2, 7);
+// document.writeln(result4);
+
+// let sender = prompt("Unesite posiljaoca: a, b ili c");
+// let a = "Djole";
+// let b = "Blagic";
+// let c = "Kum";
+
+// if (sender == "a") {
+//   document.write(`Hvala na cestitkama ${a}.`);
+// } else if (sender == "b") {
+//   document.write(`Hvala na cestitkama ${b}u.`);
+// } else {
+//   document.write(`Hvala na cestitkama ${c}e.`);
+// }
