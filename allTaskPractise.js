@@ -142,3 +142,11 @@
 // } else {
 //   document.write(`Hvala na cestitkama ${c}e.`);
 // }
+// Alerts
+
+let x = Math.random();
+if (x > 0.5) {
+  alert("X je vece od 0.5, i iznosi: " + x);
+} else {
+  alert("X je manje od 0.5, i iznosi :" + x);
+}
