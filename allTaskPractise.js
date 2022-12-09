@@ -236,3 +236,82 @@
 // array.splice(1, 1);
 // array.push((array[0], array[1]) / 2);
 // console.log(array);
+
+// iterator methods // forEach metoda, daje informacije o elementima u arrayu
+
+// const numbers = [1, 2, 3, 4, 5, 6, "Pavle Jovanovic", 40, "red"];
+// numbers.forEach(callback);
+// function callback(value, index, array) {
+//   return console.log("value: ", value, "index: ", index, "array", array);
+// }
+
+// Map() metoda, modifikuje elemente, cuva u novom arrayu
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const newNumbers = numbers.map(myFunction);
+// console.log(numbers); //[1, 2, 3, 4, 5, 6]
+// console.log(newNumbers); //[2, 4, 6, 8, 10, 12]
+// function myFunction(value) {
+//   return value * 3000678;
+// }
+
+// filter metoda, vraca elemente samo ako ispunjava odredjene uslove
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const even = numbers.filter(isEven);
+// function isEven(value) {
+//   return value % 2 == 0;
+// }
+// console.log(numbers); //[1, 2, 3, 4, 5, 6]
+// console.log(even); //[2, 4, 6]
+
+// activity
+
+// const collors = prompt("Give me three colors: ");
+// const collors1 = collors.toUpperCase();
+// const colors2 = [collors1];
+// console.log(colors2);
+
+// Task
+
+// The number x should only be visible if x is equal to or greater than 0 while being equal to or less than 0.5.
+// If x isn’t between 0 and 1, you need to ask the user to pass the number again.
+// If the new data is correct, the application behaves like now.
+// However, if the new data is also incorrect, you should create an alert with the text
+// “Your data is not correct!” and don’t show any other alert. You can use the parseFloat() method to parse the string to float number.
+
+// let x = prompt("Please pass the number between 0 and 1", "0.5");
+// if (x > 0.5 && x < 1) {
+//   alert("Hello, it's nice to see you here.");
+// } else if (x >= 0 && x <= 0.5) {
+//   alert(x);
+// } else if (x < 0 || x >= 1) {
+//   parseFloat(prompt("Please pass the number between 0 and 1", "0.5"));
+//   if (x < 0 || x >= 1) {
+//     alert("Your data is not correct!");
+//   }
+// }
+///////////// Task2
+
+// For this task, create an array containing 10 names of vegetables.
+// At least one vegetable name should have an even length.
+// Using the iterator method, show the user an alert containing this name if the length of the vegetable name is even.
+
+const array = [
+  "apple",
+  "cherry",
+  "banana",
+  "mango",
+  "lime",
+  "watermellon",
+  "pear",
+  "passion fruit",
+  "orange",
+  "clementine",
+];
+const array1 = array.filter(sameLenght);
+function sameLenght(element) {
+  return element.length === array[0].length;
+}
+console.log(array);
+console.log(array1);
