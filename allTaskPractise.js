@@ -144,9 +144,95 @@
 // }
 // Alerts
 
-let x = Math.random();
-if (x > 0.5) {
-  alert("X je vece od 0.5, i iznosi: " + x);
-} else {
-  alert("X je manje od 0.5, i iznosi :" + x);
-}
+// let x = Math.random();
+// if (x > 0.5) {
+//   alert("X je vece od 0.5, i iznosi: " + x);
+// } else {
+//   alert("X je manje od 0.5, i iznosi :" + x);
+// }
+
+///// Arrays
+
+// const my_array = ["item1", "item2", "item3"];
+// my_array[3] = "cetvrti item";
+// my_array[4] = "peti item";
+// my_array[5] = "sesti item";
+// // document.writeln(my_array);
+// // document.writeln("Duzina array-a je: " + my_array.length);
+// // Izmena sadrzaja arraya
+
+// my_array[0] = "The new item1";
+// my_array[my_array.length - 1] = "The new sesti item";
+// document.writeln(my_array);
+
+// const my_array = [];
+// my_array[0] = "The First item";
+// my_array[1] = "The Second item";
+// my_array[2] = "The Third item";
+// my_array[3] = "The Fourth item";
+// my_array[0] = "The new First item";
+// my_array[my_array.length - 1] = "The new Last item";
+// console.log(my_array);
+
+// const info = ["Pavle Jovanovic", 40, "red"];
+// // console.log(info);
+// // document.writeln(info);
+// info.push("Toyota Verso"); // dodaje na kraju novi element
+// info.unshift("Human"); // dodaje na pocetku novi element
+// console.log(info);
+// document.writeln(info);
+// info.pop(); // uklanja poslednji elelment
+// info.shift(); // ukljanja prvi element
+// console.log(info);
+// document.writeln(info);
+
+// Task
+
+// With prompts, ask the user about their name, surname and age.
+// Parse the age to int with the parseInt() method (converts string to the number if possible).
+// Save that data into an array and show it in the console.
+
+// let name = prompt("Tell me your name: ");
+// let surname = prompt("Tell me your surname: ");
+// let age = parseInt(prompt("Tell me your age: "));
+// const my_array = [name, surname, age];
+// console.log(my_array);
+// console.log(my_array.toString());
+// console.log(my_array.join(", - "));
+// let string = my_array.join(" - ");
+// console.log(string);
+// const opetArray = string.split(" - ");
+// console.log(opetArray);
+
+// With prompts, ask the user about their name, surname and age.
+// Create a one-element array for each of these properties.
+// Concatenate all arrays and print the result in the console.
+
+// let name = [prompt("Tell me your name: ")];
+// let surname = [prompt("Tell me your surname: ")];
+// let age = [parseInt(prompt("Tell me your age: "))];
+// const result = [...name, ...surname, ...age];
+// console.log(name, surname, age);
+// console.log(result);
+
+// With prompts, ask the user about three numbers.
+// Create an array containing all of them.
+// Delete the middle element and add the mean of the first
+//  and the last element at the end of the array.
+
+// let first = [parseInt(prompt("Tell me first number: "))];
+// let seccond = [parseInt(prompt("Tell me seccond number: "))];
+// let third = [parseInt(prompt("Tell me third number: "))];
+// const result = [...first, ...seccond, ...third];
+// result.splice(1, 1);
+// let mid = [parseInt(first) + parseInt(third)] / 2;
+// result.splice(1, 0, mid);
+// console.log(result);
+// moje je tacno, njihovo nije tacno
+// const number1 = parseInt(prompt("What's the first number"));
+// const number2 = parseInt(prompt("what's the second number?"));
+// const number3 = parseInt(prompt("What's the third number"));
+// let array = [number1, number2, number3];
+// array.splice(1, 1);
+// array.push((array[0], array[1]) / 2); nije tacan njihov kod
+// console.log(array);
