@@ -297,21 +297,64 @@
 // At least one vegetable name should have an even length.
 // Using the iterator method, show the user an alert containing this name if the length of the vegetable name is even.
 
-const array = [
-  "apple",
-  "cherry",
-  "banana",
-  "mango",
-  "lime",
-  "watermellon",
-  "pear",
-  "passion fruit",
-  "orange",
-  "clementine",
-];
-const array1 = array.filter(sameLenght);
-function sameLenght(element) {
-  return element.length === array[0].length;
-}
-console.log(array);
-console.log(array1);
+// const array = [
+//   "apple",
+//   "cherry",
+//   "banana",
+//   "mango",
+//   "lime",
+//   "watermellon",
+//   "pear",
+//   "passion fruit",
+//   "orange",
+//   "clementine",
+// ];
+// const array1 = array.filter(sameLenght);
+// function sameLenght(element) {
+//   return element.length === array[0].length;
+// }
+// console.log(array);
+// console.log(array1);
+
+////////////////
+// For loop
+
+// for (let i = 0; i < 100; i++) {
+//   console.log(i);
+// }
+////// activity
+//Create an array containing 10 values. Print all of them using the for-loop.
+
+// let array = [
+//   "apple10",
+//   "cherry20",
+//   "banana30",
+//   "mango40",
+//   "lime50",
+//   "watermellon60",
+//   "pear70",
+//   "passion fruit80",
+//   "orange90",
+//   "clementine100",
+// ];
+// // for (i = 0; i < 10; i++) {
+// //   console.log(array[i]);
+// // }
+// for (value of array) {
+//   console.log(value);
+// }
+///////////////
+
+/// the while Loop
+
+// let manjeOdDeset = true;
+// let i = 0;
+// while (manjeOdDeset) {
+//   i++;
+//   if (i < 10) {
+//     manjeOdDeset = true;
+//   } else {
+//     manjeOdDeset = false;
+//   }
+//   console.log(manjeOdDeset);
+// }
