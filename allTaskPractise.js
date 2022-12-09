@@ -226,13 +226,13 @@
 // const result = [...first, ...seccond, ...third];
 // result.splice(1, 1);
 // let mid = [parseInt(first) + parseInt(third)] / 2;
-// result.splice(1, 0, mid);
+// result.splice(2, 0, mid);
 // console.log(result);
-// moje je tacno, njihovo nije tacno
+
 // const number1 = parseInt(prompt("What's the first number"));
 // const number2 = parseInt(prompt("what's the second number?"));
 // const number3 = parseInt(prompt("What's the third number"));
 // let array = [number1, number2, number3];
 // array.splice(1, 1);
-// array.push((array[0], array[1]) / 2); nije tacan njihov kod
+// array.push((array[0], array[1]) / 2);
 // console.log(array);
