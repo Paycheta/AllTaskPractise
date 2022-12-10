@@ -358,3 +358,24 @@
 //   }
 //   console.log(manjeOdDeset);
 // }
+
+///////////// funkcije
+
+// function sabiranje(a, b, c) {
+//   return a + b + c;
+// }
+// let zbir = sabiranje(60, 200, 50);
+// console.log(zbir);
+
+////////////////
+// function mnozenjeDefault(a, b = 2) {
+//   return a * b;
+// }
+// let zbir = mnozenjeDefault(6);
+// console.log(zbir);
+
+// const elementi = function (a, b) {
+//   return a * b;
+// };
+// let mnozenje = elementi(10, 60);
+// console.log(mnozenje);
