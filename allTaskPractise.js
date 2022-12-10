@@ -379,3 +379,67 @@
 // };
 // let mnozenje = elementi(10, 60);
 // console.log(mnozenje);
+
+//////// class /////////
+
+// class clanoviPorodice {
+//   constructor(ime, prezime, godiste) {
+//     this.ime = ime;
+//     this.prezime = prezime;
+//     this.godiste = godiste;
+//   }
+//   starost() {
+//     let date = new Date();
+//     return date.getFullYear() - this.godiste;
+//   }
+// }
+// let prviClan = new clanoviPorodice("Pavle", "Jovanovic", 1982);
+// console.log(prviClan.ime);
+// console.log(prviClan.prezime);
+// console.log(prviClan.godiste);
+// console.log(prviClan.starost());
+
+// activity
+
+// Create a class named Student.
+// It should have the properties: name, surname and age.
+// It should also have two methods: the first one - greetings(), should return a string:
+//  “Hello my name is _insert_name_property_ _insert_surname_property_”.
+// The second one should be called birthYear() and return the student’s year of birth.
+
+// Ask three classmates for the necessary data
+// (or create dummy data if you prefer) and create four objects of the Student class.
+// The data of the fourth object should be your own.
+// Print the results of greetings() and birthYear() methods for every object.
+
+class Student {
+  constructor(name, surname, age) {
+    this.name = name;
+    this.surname = surname;
+    this.age = age;
+  }
+  greetings() {
+    return "Hello my name is " + this.name + this.surname + ".";
+  }
+  birthYear() {
+    let date = new Date();
+    return date.getFullYear() - this.age;
+  }
+}
+let one = new Student("Pavle", "Jovanovic", 40);
+let two = new Student("Tanja", "Jovanovic", 36);
+let three = new Student("Tadija", "Jovanovic", 9);
+console.log(one.greetings() + one.birthYear());
+console.log(two.greetings() + two.birthYear());
+console.log(three.greetings() + three.birthYear());
+class ansatt extends Student {
+  constructor(name, surname, jobb) {
+    super(name, surname);
+    this.jobb = jobb;
+  }
+  info() {
+    return super.greetings() + "and I work at " + this.jobb;
+  }
+}
+let four = new ansatt("Sofija", "Jovanovic", "Grand Casino");
+console.log(four.info());
